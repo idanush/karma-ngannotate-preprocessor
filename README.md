@@ -1,5 +1,7 @@
 # karma-ngannotations
 
-A preprocessor to transform docblock annotations into AngularJS syntax with [ngannotations](https://github.com/darlanalves/angular-di-annotations)
+A preprocessor to inject AngularJS dependency annotations into with [ng-annotate](https://github.com/olov/ng-annotate)
 
-Based on a [similar preprocessor](https://github.com/karma-runner/karma-googmodule-preprocessor) for `goog.module()` system:
+Based on a [similar preprocessor](https://github.com/darlanalves/karma-ngannotations-preprocessor) for the ngannotations injection system. 
+
+This should be used to allow your karma tests to run with mocks.strictDI === true

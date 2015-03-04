@@ -1,27 +1,29 @@
 {
-  "name": "karma-ngannotations-preprocessor",
+  "name": "karma-ngannotate-preprocessor",
   "version": "0.1.0",
-  "description": "A Karma preprocessor to handle AngularJS annotations",
+  "description": "A Karma preprocessor to handle AngularJS annotations using ng-annotate",
   "main": "lib/ngannotate.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-ngannotations-preprocessor.git"
+    "url": "git://github.com/idanush/karma-ngannotate-preprocessor.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-preprocessor",
     "angularjs",
-    "angular"
+    "angular",
+    "ng-annotate"
   ],
   "author": [
     "Martin Probst <martin@probst.io>",
-    "Darlan Alves <me@darlanalv.es>"
+    "Darlan Alves <me@darlanalv.es>",
+    "Idan Bauer <idanb@hotmail.com>"
   ],
   "dependencies": {
-    "angular-di-annotations": "^0.x"
+    "ng-annotate": "^0.x"
   },
   "devDependencies": {
     "chai": "~1.4",
