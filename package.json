@@ -2,7 +2,7 @@
   "name": "karma-ngannotations-preprocessor",
   "version": "0.1.0",
   "description": "A Karma preprocessor to handle AngularJS annotations",
-  "main": "lib/ngannotations.js",
+  "main": "lib/ngannotate.js",
   "scripts": {
     "test": "grunt test"
   },
