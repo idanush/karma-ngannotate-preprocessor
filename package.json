@@ -1,6 +1,6 @@
 {
   "name": "karma-ngannotate-preprocessor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Karma preprocessor to handle AngularJS annotations using ng-annotate",
   "main": "lib/ngannotate.js",
   "scripts": {
