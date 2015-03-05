@@ -1,4 +1,4 @@
-# karma-ngannotations
+# karma-ngannotate
 
 A preprocessor to inject AngularJS dependency annotations into with [ng-annotate](https://github.com/olov/ng-annotate)
 
